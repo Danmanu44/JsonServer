@@ -1,40 +1,111 @@
 {
-  "posts": [
+  "clients": [
+    {
+      "id": 1655615442470,
+      "name": "Walker Albert",
+      "phoneNumber": "+1 (767) 249-2981",
+      "email": "fyhoba@mailinator.com",
+      "balance": 0
+    },
+    {
+      "id": 1655615612022,
+      "name": "Scott Preston",
+      "phoneNumber": "+1 (442) 521-4359",
+      "email": "qaki@mailinator.com",
+      "balance": 0
+    },
+    {
+      "name": "Jemima Grant",
+      "phoneNumber": "+1 (985) 777-1926",
+      "email": "busifu@mailinator.com",
+      "id": 1655615872191,
+      "balance": 0
+    },
+    {
+      "name": "Leah Harding",
+      "phoneNumber": "+1 (996) 677-4722",
+      "email": "qazo@mailinator.com",
+      "id": 1655615920959,
+      "balance": 0
+    },
+    {
+      "id": 1656320131854,
+      "name": "Darrel Christensen",
+      "phoneNumber": "+1 (836) 354-6862",
+      "email": "typa@mailinator.com",
+      "balance": 38000
+    }
+  ],
+  "transactions": [
     {
       "id": 1,
-      "title": "1st post",
-      "datetime": "July 16, 2021 11:47:39 AM",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "client_id": 1655616231387,
+      "date_posted": "2022-06-20T14:16:28.403Z",
+      "activity": "Credited",
+      "amount": "30000",
+      "balance_before": 0,
+      "balance_after": 30000,
+      "note": "Kudin Aure"
     },
     {
       "id": 2,
-      "title": "Second post",
-      "datetime": "July 16, 2021 11:47:48 AM",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. two"
+      "client_id": 1655616231387,
+      "date_posted": "2022-06-20T14:16:53.303Z",
+      "activity": "Debited",
+      "amount": "10000",
+      "balance_before": 30000,
+      "balance_after": 20000,
+      "note": "Expenses "
     },
     {
       "id": 3,
-      "title": "Number Three",
-      "datetime": "July 16, 2021 11:48:01 AM",
-      "body": "Third post... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "date_posted": "2022-06-20T14:17:23.286Z",
+      "note": "RRR",
+      "activity": "Credited",
+      "amount": "10000",
+      "balance_before": 20000,
+      "balance_after": 30000,
+      "client_id": 1655616231387
+    },
+    {
+      "id": 4,
+      "client_id": 1655616231387,
+      "date_posted": "2022-06-26T17:10:07.699Z",
+      "activity": "Credited",
+      "amount": "78000",
+      "balance_before": 30000,
+      "balance_after": 108000,
+      "note": "kudin Aure"
+    },
+    {
+      "id": 5,
+      "client_id": 1655616231387,
+      "date_posted": "2022-06-26T17:11:13.296Z",
+      "activity": "Debited",
+      "amount": "7000",
+      "balance_before": 108000,
+      "balance_after": 101000,
+      "note": "kudin mai"
     },
     {
       "id": 6,
-      "title": "How to become rich",
-      "datetime": "April 16, 2022 2:56:06 AM",
-      "body": "Stop dreaming - this is the truth you have to believe"
+      "client_id": 1656320131854,
+      "date_posted": "2022-06-27T08:56:57.154Z",
+      "activity": "Credited",
+      "amount": "40000",
+      "balance_before": 0,
+      "balance_after": 40000,
+      "note": "Transport Savings"
     },
     {
-      "id": 8,
-      "title": "how to get visa to Afghanistan",
-      "datetime": "April 16, 2022 2:58:59 AM",
-      "body": "lorem ipsum dolor sit amet"
-    },
-    {
-      "id": 9,
-      "title": "Hello!",
-      "datetime": "April 16, 2022 3:00:38 AM",
-      "body": "Hello World!"
+      "id": 7,
+      "client_id": 1656320131854,
+      "date_posted": "2022-06-27T08:57:19.672Z",
+      "activity": "Debited",
+      "amount": "2000",
+      "balance_before": 40000,
+      "balance_after": 38000,
+      "note": "Food Expenses"
     }
   ]
 }
